@@ -1,0 +1,82 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("./img/bg-texture.png");
+  background-repeat: repeat;
+  background-color: #00852849;
+}
+
+.nana-bg-card{
+  background-image: url("./img/bg-card.png");
+  background-repeat: repeat;
+}
+
+.col-center-block {
+  float: none;
+  display: block;
+  margin: 0 auto;
+}
+
+.nana-color-primary-0 {
+  color: #fbcb14;
+}
+.nana-color-primary-1 {
+  color: #ffe16d;
+}
+.nana-color-primary-2 {
+  color: #ffd844;
+}
+.nana-color-primary-3 {
+  color: #caa001;
+}
+.nana-color-primary-4 {
+  color: #9f7e00;
+}
+
+.nana-text-color-blue-1 {
+  color: #001d3dff;
+}
+.nana-color-black {
+  background-color: #000814ff;
+}
+.nana-color-blue-1 {
+  background-color: #001d3dff;
+}
+.nana-color-blue-2 {
+  background-color: #003566ff;
+}
+.nana-color-yellow-1 {
+  background-color: #ffc300ff;
+}
+.nana-color-yellow-2 {
+  background-color: #ffd60aff;
+}
+
+/* fab */
+
+.nana-fab-main-btn {
+  background-color: #f44336;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #f44336;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 36px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.3s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  position: fixed;
+  bottom: 6px;
+  right: 15px;
+  font-size:1.4em;
+}
+
+.nana-fab-main-btn:hover {
+  color:white;
+}
+
+/* fab end */
